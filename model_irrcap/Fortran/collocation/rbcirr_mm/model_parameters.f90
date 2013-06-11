@@ -1,0 +1,6 @@
+MODULE model_parameters
+
+DOUBLE PRECISION :: BETA, ALPHA, DELTAK, GAMMAC, PSI, SIGMA_EPS, RHOA, PHI
+DOUBLE PRECISION :: kss, css, iss, uss, vss
+
+END MODULE
