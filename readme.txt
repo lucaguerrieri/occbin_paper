@@ -1,15 +1,14 @@
 The original programs are in /Users/Jason/Documents/MATLAB/consumption/occbin_work/occbin_work
 
+
+
 This directory contains a subset of the final programs for replication purposes.
-
-
 
 
 Figures
 
 NB:  For Figures 1 to 6 cd into model_irrcap
      For Figures 7 and 8 cd into XXX
-
 
 Figure 1   Matteo
 
@@ -74,6 +73,8 @@ Figure 6   cd Fortran/collocation/rbcirr_matlab_1poly
            (remember to sync output directory and options across fortran
             and matlab, in case a new decision rule is desired).
 
+In the directory model_consumption
+
 Figure 7   Matteo
     
 Figure 8   Matteo  
@@ -81,6 +82,7 @@ Figure 8   Matteo
 
 
 Tables:
+
 
 NB: for tables 1 to 3 cd into model_irrcap
     for tables 6 and 7 cd into XXX
