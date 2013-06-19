@@ -10,7 +10,13 @@ Figures
 NB:  For Figures 1 to 6 cd into model_irrcap
      For Figures 7 and 8 cd into XXX
 
-Figure 1   Matteo
+Figure 1   cd model_irrcap_matteo
+	   run plot_policy_functions_paper.m
+           loads piecewise policy functions from files saved by
+	   runsim_computepolicy2.m
+	   loads nonlinear policy functions from files saved by 		   irrcapcont#, where # is the GAMMAC value
+	   and plots them
+
 
 Figure 2   IRF to up and down shock
            cd fortran/dp/matlab
@@ -75,9 +81,18 @@ Figure 6   cd Fortran/collocation/rbcirr_matlab_1poly
 
 In the directory model_consumption
 
-Figure 7   Matteo
-    
-Figure 8   Matteo  
+Figure 7   cd model_borrcon
+
+           run plot_policy_functions.m
+           loads piecewise policy functions from files saved by
+           runsim_borrcon_computepolicy.m
+	   
+           loads nonlinear policy functions from files saved by 		   
+           vincent2.m, which contains the baseline calibration
+           and plots them
+           
+Figure 8   Put toolkit private on path
+           run runsim_compare.m
 
 
 
